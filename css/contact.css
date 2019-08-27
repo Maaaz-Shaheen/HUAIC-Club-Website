@@ -1,0 +1,82 @@
+.nav-link {
+	color: #757575;
+}
+
+.huaic_nav_border {
+	box-shadow: 0 0 4px 0 #312f92;
+}
+
+.huaic_landing {
+	min-height: 564px;
+	background-image: radial-gradient(rgb(215, 215, 215) 1px, transparent 1px),
+		radial-gradient(rgb(215, 215, 215) 1px, transparent 1px);
+	background-size: 50px 50px;
+	margin: 0px auto;
+	padding: 0px;
+	background-position: 0px 0px, 25px 25px;
+}
+
+.contact-headings {
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+}
+
+.contact-headings h1 {
+	font-family: "effra", sans-serif;
+	font-size: 3.4rem;
+	font-weight: 900;
+	margin-bottom: 40px;
+}
+
+.btn-success {
+	box-shadow: 0 4px 10px 0 #28a745;
+}
+.contact-headings h2 {
+	font-family: "lato", sans-serif;
+	margin-bottom: 30px;
+	line-height: 1.5;
+	font-size: 1.15rem;
+	color: #4a4a4a;
+}
+
+.btn-primary {
+	background-color: #1fb6ff;
+	border: 1px solid #1fb6ff;
+	border-radius: 10px;
+}
+
+.contact-info-row {
+	padding-bottom: 100px;
+}
+
+.contact-info-row h4,
+.contact-info-row h2 {
+	font-family: "effra", sans-serif;
+}
+.contact-info-row h4 {
+	font-size: 1.5rem;
+}
+
+.contact-info-row h2 {
+	font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+	.huaic-contact-form-col {
+		border-right: 1px solid rgb(187, 179, 179);
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.huaic-contact-form-col {
+		margin-bottom: 20px;
+	}
+}
+
+footer {
+	background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);
+	color: #f1f1f1;
+	text-align: center;
+	height: 100%;
+}
