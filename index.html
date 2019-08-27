@@ -13,14 +13,99 @@
 			crossorigin="anonymous"
 		/>
 		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
 			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"
 		></script>
+		<link rel="stylesheet" href="css/home.css" />
 
 		<title>Welcome to the HUAIC Club!</title>
 	</head>
 	<body>
-		Hello World!
+		<li class="navbar navbar-expand-md navbar-light bg-white huaic_nav_border">
+			<div class="container">
+				<div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link mr-4 p-2" href="#">Team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link mr-4 p-2" href="#">Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link mr-4 p-2" href="#">Projects</a>
+						</li>
+					</ul>
+				</div>
+				<div class="mx-auto order-0">
+					<a class="navbar-brand mx-auto" href="/">
+						<img src="img/logo_name.jpg" width="200" height="auto" alt="HUAIC Logo" />
+					</a>
+				</div>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target=".dual-collapse2"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+					<ul class="navbar-nav ml-auto ">
+						<li class="nav-item">
+							<a class="nav-link mr-4 p-2" href="#">Sponsers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link mr-4 p-2" href="pages/contact.html">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link mr-4 p-2" href="#">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+
+		<div class="huaic_landing mb-4">
+			<div class="container">
+				<img src="img/logo_lines.jpg" alt="HUAIC Logo" class="rounded huaic_landing_logo" />
+				<h1 class="mt-5 text-muted">Welcome to the</h1>
+				<h2 class="mt-2">Habib University Artificial Intelligence Club</h2>
+				<div class="row mt-5">
+					<div class="col-sm-12 col-md-4 mt-3">
+						<a href="/pages/events.html" class="btn btn-primary btn-block">
+							View Events
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4  mt-3">
+						<a href="/pages/team.html" class="btn btn-success btn-block">
+							Meet the Team
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4  mt-3">
+						<a href="/pages/projects.html" class="btn btn-projects btn-block">
+							View Projects
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="row">
+			<div class="col">
+				<p class="p-4">
+					Copyright © 2019 HUAIC All rights reserved.
+				</p>
+			</div>
+		</footer>
 	</body>
 </html>

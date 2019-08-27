@@ -1,0 +1,68 @@
+.nav-link {
+	color: #757575;
+}
+
+.huaic_nav_border {
+	box-shadow: 0 0 4px 0 #312f92;
+}
+
+.huaic_landing {
+	text-align: center;
+	min-height: 564px;
+	background-image: radial-gradient(rgb(215, 215, 215) 1px, transparent 1px),
+		radial-gradient(rgb(215, 215, 215) 1px, transparent 1px);
+	background-size: 50px 50px;
+	margin: 0px auto;
+	padding: 0px;
+	background-position: 0px 0px, 25px 25px;
+}
+
+.huaic_landing h1 {
+	font-size: 1.5rem;
+}
+
+.huaic_landing h2 {
+	font-size: 3rem;
+}
+
+.huaic_landing a {
+	color: inherit;
+	text-decoration: none;
+	border-radius: 8px;
+	color: #fff;
+	height: 100%;
+	padding: 18px;
+}
+
+.btn-projects {
+	background-color: #613df9;
+	box-shadow: 0 4px 14px #613df9;
+	border: 1px solid #613df9;
+	color: #fff;
+}
+
+.btn-projects:hover {
+	background-color: #613dd1;
+	box-shadow: 0 4px 10px #613dc1;
+	color: #fff;
+}
+
+.btn-primary {
+	box-shadow: 0 4px 10px 0 rgba(0, 118, 255, 0.39);
+}
+
+.btn-success {
+	box-shadow: 0 4px 10px 0 #28a745;
+}
+
+.huaic_landing_logo {
+	width: 13%;
+	margin-top: 50px;
+	height: 100%;
+}
+
+footer {
+	background-image: linear-gradient(to bottom, #121212 0%, #323232 100%);
+	color: #f1f1f1;
+	text-align: center;
+}
